@@ -1,0 +1,108 @@
+body{
+    background-color: white;
+    /* font-family: 'Andada Pro',
+    serif */
+}
+h1{
+    text-align: center;
+    font-family: 'Hahmlet',
+    serif;
+    font-weight: bold;
+}
+h4{
+    text-align: center;
+}
+.left{
+display: inline-flex;
+justify-content: center;
+flex-direction: column;
+width: 45%;
+border: whitesmoke 1px solid;
+margin-left: 3%;
+box-shadow: 10px 10px 10px rgba(7, 5, 128, 0.281);
+padding-bottom: 15px;
+margin-top: 15px;
+
+}
+
+.input{
+    text-align: right;
+}
+.right{
+    text-align: center;
+display: inline-flex;
+justify-content: center;
+flex-direction: column;
+box-shadow: 10px 10px 10px rgba(7, 5, 128, 0.281);
+/* padding-left: 2%; */
+margin-right: 3%;
+border:whitesmoke 1px solid;
+width: 45%;
+float: right;
+margin-top: 15px;
+
+}
+.leftform{
+    display: inline-flex;
+    justify-content: right;
+    text-align: right;
+    flex-direction: column;
+    width:55%;
+    padding-left: 10%;
+}
+.rightform {
+    display: inline-flex;
+    justify-content: left;
+    width: 30%;
+    float: right;
+}
+.savebtn{
+    margin-left: 0.5rem;
+    background-color: rgba(216, 212, 212, 0.87);
+    border-radius: 7px;
+    border-width: 1px;
+    border: rgba(130, 238, 229, 0.753);
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 1.7rem;
+    padding-top: 5px;
+    background-color: white;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    border-width: 1px;
+    color: rgb(7, 50, 241);
+    font-weight: bold;
+    box-shadow: 3px 4px 5px rgba(7, 5, 128, 0.281);
+}
+
+@media only screen and (max-width: 820px) {
+    .left {
+        margin-top: 10px;
+        text-align: center;
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        /* padding-left: 2%; */
+
+        border: whitesmoke 1px solid;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .right {
+        margin-top: 10px;
+        text-align: center;
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        /* padding-left: 2%; */
+       
+        border: whitesmoke 1px solid;
+        width: 95%;
+        margin-bottom: 20px;
+        
+    }
+}

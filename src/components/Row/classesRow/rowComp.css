@@ -1,0 +1,224 @@
+/* *{
+    padding-top: 15px;
+    padding-bottom: 15px;
+} */
+
+
+.Row__Container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    align-items: center;
+}
+
+
+.Row__Title{
+    flex: 2;
+    color:#1877f2;
+    /* align-items: center; */
+
+}
+
+
+.Row__Lecture{
+    flex: 5;
+
+}
+
+.Row__LectureTime{
+    flex: 1;
+
+}
+
+.Row__JoinButtonDiv{
+    flex: 2;
+}
+
+.Row__JoinButton{
+    /* height: 100%;
+    width: 100%; */
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    background-color: #00BFA5; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6vw;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Row__JoinButton_Off{
+    background-color: #9ca19d;
+    border: none;
+    color: white;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6vw;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Row__JoinButton:hover {
+    background-color: #3e8e41;
+  }
+
+  .Row__JoinButtonDiv_de{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+  .Row__JoinButton_de{
+    /* height: 100%;
+    width: 100%; */
+    background-color: #4CAF50;
+    /* border: none; */
+    color:white;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    margin-right: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6vw;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Row__JoinButton_de_Off{
+    background-color: #9ca19d;
+    border: none;
+    color: white;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6vw;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Row__JoinButton_de:hover {
+    background-color: #3e8e41;
+  }
+
+
+  .Row__Container_media{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    width: 100%;
+
+}
+
+.Row__Title_m{
+    flex: 2;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    color: #1877f2;
+    width: 100%;
+
+}
+
+.media_{
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+}
+
+.Row__Lecture_m{
+    flex: 5;
+    background-color: white;
+
+}
+
+.Row__LectureTime_m{
+    flex: 3;
+    background-color: white;
+}
+
+.Row__JoinButtonDiv_m{
+    /* background-color: yellow; */
+    width: 100%;
+    /* padding: 3vw; */
+    margin-bottom: 4vw  ;
+}
+
+.Row__JoinButton_m{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: #00BFA5;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Row__JoinButton_Off_m{
+    background-color: #9ca19d;
+    border: none;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Row__JoinButton:hover {
+    background-color: #3e8e41;
+  }
+
+  .Row__JoinButtonDiv_de_m{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+  .Row__JoinButton_de_m{
+    /* height: 100%;
+    width: 100%; */
+    background-color: #4CAF50;
+    /* border: none; */
+    color:white;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    margin-right: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Row__JoinButton_de_Off_m{
+    background-color: #9ca19d;
+    border: none;
+    color: white;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Row__JoinButton_de_m:hover {
+    background-color: #3e8e41;
+  }

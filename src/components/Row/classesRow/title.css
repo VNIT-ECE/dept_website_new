@@ -1,0 +1,41 @@
++/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+
+.Title__Container{
+    display: flex;
+    text-align: center;
+    font-size: 1.6vw;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Title__Title{
+    flex: 2;
+    margin-right: 2px;
+    background-color: #1877f2;
+
+}
+
+.Title__Lecture{
+    flex: 5;
+    margin-right: 2px;
+    background-color: #1877f2;
+
+}
+
+.Title__LectureTime{
+    flex: 1;
+    margin-right: 2px;
+    background-color: #1877f2;
+}
+
+.Title__JoinButtonDiv{
+    flex: 2;
+    background-color: #1877f2;
+
+    /* height: 100%; */
+    /* width: 100%; */
+    
+}
