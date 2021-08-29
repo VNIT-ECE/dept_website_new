@@ -8,7 +8,7 @@ function Assign(props) {
     const sem3 = "https://docs.google.com/spreadsheets/d/10-B3P532UoO4C2j-jGTAMX-WWCS53UqT3Jq2cDkSYOA/edit?usp=sharing";
     // console.log(props.sem);
     useEffect(() => {
-        if(props.sem==3)
+        if(props.sem===3)
         setDeadlines(sem3);
         else
         setDeadlines(sem5);

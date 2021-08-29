@@ -55,7 +55,7 @@ const RowComp = ({ row_type, class_name, time_of_class, join_link, button_status
           <span className="block text-2xl font-medium text-teal-accent-400 mt-2">{class_name}</span>
         </p>
         <p className="text-center m-5 sm:m-0">
-            <span className="block text-sm">Start Time</span>
+            <span className="block text-sm">START TIME</span>
           <span className="block text-2xl text-teal-accent-400 mt-2">{time_of_class}</span>
         </p>
         

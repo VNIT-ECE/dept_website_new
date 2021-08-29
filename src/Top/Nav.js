@@ -103,9 +103,9 @@ export default function Nav({currSem, setCurrSem}) {
             </svg>
           </button>
           {isMenuOpen && (
-            <div class="absolute top-0 left-0 w-full">
-              <div class="p-5 bg-white border rounded shadow-sm z-10">
-                <div class="flex items-center justify-between mb-4">
+            <div class="absolute -top-5 -left-5 w-screen">
+              <div class="p-5 bg-white h-screen z-10">
+                <div class="flex items-center justify-between mb-12">
                   <div>
                     <Link
                       to="nav"
@@ -139,11 +139,12 @@ export default function Nav({currSem, setCurrSem}) {
                   </div>
                 </div>
                 <nav>
-                  <ul class="text-sm space-y-4">
+                  <ul class="text-xl space-y-12">
                     <li>
                       <Link
                         to="timetable"
                         spy={true} smooth={true}
+                        onClick={() => setIsMenuOpen(false)}
                         aria-label="Time Table"
                         title="Time Table"
                         class="cursor-pointer font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
@@ -155,6 +156,7 @@ export default function Nav({currSem, setCurrSem}) {
                       <Link
                         to="resources"
                         spy={true} smooth={true}
+                        onClick={() => setIsMenuOpen(false)}
                         aria-label="Resources"
                         title="Resources"
                         class="cursor-pointer font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
@@ -166,6 +168,7 @@ export default function Nav({currSem, setCurrSem}) {
                       <Link
                         to="cgpa_calc"
                         spy={true} smooth={true}
+                        onClick={() => setIsMenuOpen(false)}
                         aria-label="CGPA Calculator"
                         title="CGPA Calculator"
                         class="cursor-pointer font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
@@ -177,6 +180,7 @@ export default function Nav({currSem, setCurrSem}) {
                       <Link
                         to="blog"
                         spy={true} smooth={true}
+                        onClick={() => setIsMenuOpen(false)}
                         aria-label="Quick Links"
                         title="Quick Links"
                         class="cursor-pointer font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"

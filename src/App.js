@@ -24,7 +24,7 @@ function App() {
   useEffect(()=>{
     setTimeout(()=>{
       setLoader(false);
-    }, 3000);
+    }, 4321);
 
   }, []);
 
@@ -34,11 +34,8 @@ function App() {
       {loader? 
         <div className="flex w-screen h-screen justify-center items-center">
           <div className="">
-            <div className="animate-spin">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clipRule="evenodd" />
-              </svg>
-              {/* Please wait...loading */}
+            <div className="animate-bounce">
+               Please wait...loading
             </div>
           </div>
         </div>
